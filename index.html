@@ -48,10 +48,21 @@ button:hover{
     <h1>👋 Olá!</h1>
     <p>Bem-vindo ao meu site.</p>
 
-    <button onclick="alert('Obrigado por visitar!')">
+    <button onclick="mostrarMensagem()"
         Clique aqui
     </button>
+<div id="mensagem" style="display:none; margin-top:30px; color:white;">
+    <h2>💙 Obrigado por confiar em clicar neste link!</h2>
+    <p>
+        Sua confiança significa muito.<br>
+        Espero que você aproveite esta experiência.<br>
+        Que seu dia seja incrível! ✨
+    </p>
 </div>
-
+<script>
+function mostrarMensagem() {
+    document.getElementById("mensagem").style.display = "block";
+}
+</script>
 </body>
 </html>
