@@ -1,9 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <title>Meu site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Site</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#2196f3,#673ab7);
+    color:white;
+    text-align:center;
+}
+
+.container{
+    margin-top:100px;
+}
+
+h1{
+    font-size:50px;
+}
+
+p{
+    font-size:20px;
+}
+
+button{
+    background:white;
+    color:#673ab7;
+    border:none;
+    padding:15px 30px;
+    font-size:18px;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ddd;
+}
+</style>
+
 </head>
 <body>
-  <h1>Olá, GitHub!</h1>
+
+<div class="container">
+    <h1>👋 Olá!</h1>
+    <p>Bem-vindo ao meu site.</p>
+
+    <button onclick="alert('Obrigado por visitar!')">
+        Clique aqui
+    </button>
+</div>
+
 </body>
 </html>
